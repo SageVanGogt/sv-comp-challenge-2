@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  top: 0;
+
+}
+
+header{
+  height: 20vh;
+  width: 100vw;
+  border: 1px solid black;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 320px;
+  width: 200px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card__top {
+  height: 90px;
+}
+
+.card__content {
+margin-left: 10px;
+}
+
+/* Text and fonts */
+
+h2 {
+ font-size: 20px;
+}
+
+p {
+
+}
