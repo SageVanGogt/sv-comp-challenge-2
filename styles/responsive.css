@@ -6,21 +6,14 @@
   }
 
   .logo__container {
-    /* order: unset; */
-    /* right: 0; */
-    /* margin: 50px auto 10px; */
     display: block;
     height: 66px;
-    width: 500px;
     margin-top: 0px;
     position: relative;
+    width: 500px;
   }
   nav {
-    /* margin-top: 84px; */
     width: 100vw;
-    color: white;
-    /* display: inline-block; */
-    /* float: left; */
     display: flex;
     justify-content: space-around;
     margin:0;
