@@ -10,10 +10,9 @@
     height: 66px;
     margin-top: 0px;
     position: relative;
-    width: 500px;
   }
+
   nav {
-    width: 100vw;
     display: flex;
     justify-content: space-around;
     margin:0;
@@ -21,21 +20,17 @@
 
   .logo {
     float: right;
-    width: 57px;
     display: inline-block;
     margin-right: 40px;
+    width: 4vw;
   }
 
   .logo__container h1 {
-    font-size: 3.3rem;
+    font-size: 4.1vw;
   }
 }
 
 @media screen and (max-width: 530px) {
-  
-   body {
-    width:100vw;
-   }
 
   .hidden__menu {
     display:block;
@@ -43,7 +38,19 @@
     font-size: 4vh;
   }
 
+  .logo {
+    width: 7vw;
+  }
+
+   .logo__container h1 {
+    font-size: 7.1vw;
+  }
+
   nav {
     display:none;
   }
 }
+
+@media screen and (device-aspect-ratio: 40/71) {}
+
+@media screen and (device-aspect-ratio: 3/4) {}
