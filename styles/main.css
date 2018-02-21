@@ -110,6 +110,7 @@ main {
 }
 
 .card__top {
+  position: relative;
   width: 330px;
   height: 160px;
   border: 1px solid black;
@@ -141,7 +142,7 @@ main {
 
 .background__img {
   position: absolute;
-  height: 22%;
+  height: 92%;
   transition-duration: .2s;
 }
 
